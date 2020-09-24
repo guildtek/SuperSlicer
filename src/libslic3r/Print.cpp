@@ -229,6 +229,7 @@ bool Print::invalidate_state_by_config_options(const std::vector<t_config_option
             || opt_key == "filament_cooling_initial_speed"
             || opt_key == "filament_cooling_final_speed"
             || opt_key == "filament_ramming_parameters"
+            || opt_key == "filament_max_speed"
             || opt_key == "filament_max_volumetric_speed"
 			|| opt_key == "filament_use_skinnydip"        // skinnydip params start
 	        || opt_key == "filament_use_fast_skinnydip"
